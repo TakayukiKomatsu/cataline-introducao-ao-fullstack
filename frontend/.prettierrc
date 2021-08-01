@@ -1,7 +1,9 @@
 {
-	"semi": false,
-	"singleQuote": true,
 	"useTabs": true,
 	"tabWidth": 2,
-	"vueIndentScriptAndStyle": true
+
+	"semi": false,
+	"singleQuote": true,
+	"vueIndentScriptAndStyle": true,
+	"arrowParens": "always"
 }
