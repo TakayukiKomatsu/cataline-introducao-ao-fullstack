@@ -1,17 +1,8 @@
-<template>
-	<h1>{{ message }}</h1>
-</template>
+<template></template>
 
 <script lang="ts">
 	import { defineComponent } from 'vue'
-
-	export default defineComponent({
-		data() {
-			return {
-				message: 'Hello world',
-			}
-		},
-	})
+	export default defineComponent({})
 </script>
 
 <style></style>
