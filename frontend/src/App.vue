@@ -4,7 +4,22 @@
 
 <script lang="ts">
 	import { defineComponent } from 'vue'
-	export default defineComponent({})
+	import axios from '@/utils/axios'
+
+	export default defineComponent({
+		data() {
+			return {}
+		},
+		methods: {
+			async fetchUsers() {
+				const response = await axios.get('/users')
+				console.log(response)
+			},
+		},
+		created() {
+			this.fetchUsers()
+		},
+	})
 </script>
 
 <style scoped>
