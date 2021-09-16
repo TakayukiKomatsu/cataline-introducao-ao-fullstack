@@ -6,3 +6,7 @@ Modulo Introdução ao Fullstack bootcamp Cataline
 - Vue 3
 - Axios 
 - Typescript
+
+
+
+Vue is Awesome <3
